@@ -64,7 +64,7 @@ plot(model_one, transform.x = log10,
 valid_set$pred <- predict(model_one, newdata = valid_set[,-9], type = 'raw')
 confusionMatrix(valid_set$outcome, valid_set$pred)
 
-# requires 'e1071' package 
+# method "svmLinearWeights" requires 'e1071' R package 
 library(e1071)
 
 # let's train the second model. It shares same trControl
