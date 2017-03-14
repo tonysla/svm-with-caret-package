@@ -1,4 +1,3 @@
-
 # load packages
 library(caret)
 library(kernlab)
