@@ -7,6 +7,7 @@ using 'kernlab', 'pROC' & 'e1071' package via 'caret' package. All three models 
     library(caret)
     library(kernlab)
     library(pROC)
+    library(e1071)
 
 
 
